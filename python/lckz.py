@@ -1,8 +1,19 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-print('请输入你的年龄')
-num = input()
-if int(num) > 18:
-    print('已经成年了年龄是%d' % num)
+print('我可以测量你的BMI')
+h=input('请输入你的身高(m):')
+w=input('请输入你的体重(kg):')
+high=float(h)
+weight=int(w)
+bmi = weight/(high*high)
+print('BMI=',bmi)
+if bmi>32:
+    print('严重肥胖')
+elif bmi>=28:
+    print('肥胖')
+elif bmi>=25:
+    print('过重')
+elif bmi>=18.5:
+    print('正常')
 else:
-    print('未成年')
+    print('过轻')
