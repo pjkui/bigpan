@@ -2,5 +2,8 @@
 # -*- coding: utf-8 -*-
 
 lang_list = ['php','python','java','C','C#','JavaScript']
-for l in lang_list:
-    print('%s说: 世界上最好的编程语言是: %s' % (l,l))
+x = 0
+num_list = [1,2,3,4,5,6,7]
+for num in num_list:
+    x = x+num
+print(x)
