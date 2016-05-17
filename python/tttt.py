@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+a = -100
+#abs()取绝对值
+#print(abs(a))
+#max()取最大值
+#print(max(1,3,6,88,8888,90))
 
-a = 'abc'
-b = a.replace('a','BIG')
-print(b)
-print(type(a))
+num = float('444')
+print(num)
