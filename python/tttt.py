@@ -8,3 +8,5 @@ a = -100
 
 num = hex(int('444'))
 print(num)
+#16进制转10进制
+print(('0x792',16))
