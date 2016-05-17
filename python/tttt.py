@@ -6,5 +6,5 @@ a = -100
 #max()取最大值
 #print(max(1,3,6,88,8888,90))
 
-num = bool('444')
+num = hex(int('444'))
 print(num)
