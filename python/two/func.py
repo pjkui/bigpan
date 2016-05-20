@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-#限制关键字参数的名字
-def reg (name,sex,*,city='上海',domain):
-    print('姓名:',name,'性别:',sex,'其他信息:','city',city,'domain',domain)
+#参数组合
+def some_params_func(bixuan,kexuan = '可选',*kebian,gjz_one,gjz_two,**kv):
+    print('必选参数',bixuan,kexuan,kebian,gjz_one,gjz_two,kv)
 
-reg('小米','男',domain='www.google.com')
+
+some_params_func('唯一的必选',('dff','oo'),gjz_one='dsf',gjz_two='sdfds')
