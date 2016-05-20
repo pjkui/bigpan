@@ -5,8 +5,9 @@ def add_end (*infos):
     for ss in infos:
         num = num + ss * ss
     return num
-#第一次调用
-r = add_end(1,3,6)
+#有一个list调用 一个可变参数的函数
+hh_list = [2,6,9]
+r = add_end(*hh_list)
 print(r)
 
 # Python函数在定义的时候，默认参数L的值就被计算出来了，即[]，因为默认参数L也是一个变量，它指向对象[]，每次调用该函数，如果改变了L的内容，则下次调用时，默认参数的内容就变了，不再是函数定义时的[]了。
