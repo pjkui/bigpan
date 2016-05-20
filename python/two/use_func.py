@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 from func import my_func
-my_func(55)
+from functon_param import ppp_func
+#my_func(55)
+ppp_func(2)
