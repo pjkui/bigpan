@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-def add_end (info = []):
+def add_end (info = None):
+    if info is None:
+        info = []
     info.append('END')
     return info
 #第一次调用
