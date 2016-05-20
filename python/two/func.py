@@ -1,15 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-def add_end (*infos):
-    num =0
-    for ss in infos:
-        num = num + ss * ss
-    return num
-#有一个list调用 一个可变参数的函数
-hh_list = [2,6,9]
-r = add_end(*hh_list)
-print(r)
+#定义一个关键字参数的函数    函数内部自动把关键字参数组装成dict
+def reg (name,sex,**infos):
+    print('姓名:',name,'性别:',sex,'其他信息:',infos)
 
-# Python函数在定义的时候，默认参数L的值就被计算出来了，即[]，因为默认参数L也是一个变量，它指向对象[]，每次调用该函数，如果改变了L的内容，则下次调用时，默认参数的内容就变了，不再是函数定义时的[]了。
-#
-# 所以，定义默认参数要牢记一点：默认参数必须指向不变对象！
+reg('小米','男',city='北京',inc='奇虎')
