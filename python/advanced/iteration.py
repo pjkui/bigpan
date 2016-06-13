@@ -6,6 +6,6 @@
 
 dic = {'name':'xm','city':'qingdao','sex':'nan'}
 dir_two = {'dff':90,'hh':78,'bh':67}
-#迭代字典中的key
-for X in dic:
+#迭代字典中的value
+for X in dic.values():
     print(X)
