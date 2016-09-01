@@ -17,6 +17,9 @@ print(P)
  '''
 #查看当前目录下的所有文件
 # print([d for d in os.listdir('../')])
-my_dir = {'aa':'AA','bb':'BB','cc':'CC'}
-print([k + '=>' + v for k,v in my_dir.items()])
+# my_dir = {'aa':'AA','bb':'BB','cc':'CC'}
+# print([k + '=>' + v for k,v in my_dir.items()])
+
+L = ['Hello', 'World', 'IBM', 'Apple']
+print([s.lower() for s in L])
 
