@@ -20,6 +20,8 @@ print(P)
 # my_dir = {'aa':'AA','bb':'BB','cc':'CC'}
 # print([k + '=>' + v for k,v in my_dir.items()])
 
-L = ['Hello', 'World', 'IBM', 'Apple']
-print([s.lower() for s in L])
-
+# L = ['Hello', 'World', 'IBM', 'Apple']
+# print([s.lower() for s in L])
+L1 = ['Hello', 'World', 18, 'Apple', None]
+L2 = [s.lower() for s in L1 if isinstance(s,str) == True]
+print(L2)
