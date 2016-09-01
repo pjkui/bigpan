@@ -7,6 +7,8 @@ my_list = ['php','python','java','C','swift','golang']
 #取最后两个
 #print(my_list[-2:])
 num_list = list(range(0,100))
+print(num_list)
+exit();
 #每5个取一个
 print(num_list[::5])
 
