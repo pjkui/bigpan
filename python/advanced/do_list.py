@@ -6,6 +6,7 @@ import os
 #print(L)
 # for k in L:
 #   print(k)
+print([ a for a in range(2,10) if a % 2 == 0])
 '''
 #两层循环，可以生成全排列
 N = ['Tom','Jack','Jim','Jason']
@@ -15,5 +16,5 @@ P = [ name + action for name in N for action in A]
 print(P)
  '''
 #查看当前目录下的所有文件
-print([d for d in os.listdir('../')])
+# print([d for d in os.listdir('../')])
 
